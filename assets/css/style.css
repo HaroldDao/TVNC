@@ -1,0 +1,421 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FAF3E0;
+}
+
+html {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 46px;
+    background-color: black;
+    z-index: 2;
+}
+
+#nav {
+    margin-left: 50px;
+    display: inline-block;
+}
+#nav li {
+    display: inline-block;
+}
+
+#nav li a {
+    color: white;
+    text-decoration: unset;
+    line-height: 46px;
+    padding: 0 24px;
+    display: inline-block;
+}
+
+#nav li:hover a {
+    background-color: #ccc;
+    color: black;
+}
+
+#header-contact {
+    margin-right: 50px;
+    float: right;
+
+}
+
+#header-contact a {
+    color: rgb(255, 255, 255);
+    text-decoration: unset;
+    line-height: 46px;
+    display: inline-block;
+    padding: 0 24px;
+}
+
+#header-contact:hover {
+    background-color: rgb(160, 4, 4);
+}
+
+#slider {
+    margin-top: 46px;
+    padding-top: 45%;
+    background: url('/assets/img/vietnam-hoi-an-groot-506f.jpg') top center / cover no-repeat;
+    position: relative;
+}
+
+#main #slider .text-content {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 47px;
+    color: white;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
+
+}
+
+#main #slider .text-content .heading {
+    font-weight: 500;
+}
+
+#main #aodai {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-color: #f7f2f2;
+}
+
+#main #aodai .aodai-heading {
+    text-align: center;
+    margin-bottom: 43px;
+}
+
+#main #aodai #aodai-content {
+    font-size: 20px;
+    left: 0;
+    width: 60%;
+}
+
+/* indent text content */
+#main .indent {
+    margin-left: 20px;
+}
+
+#main #aodai h4 {
+    font-weight: 700;
+    margin: 12px 0 0 6px;
+}
+
+#main #aodai strong {
+    font-weight: 600;
+}
+
+#main #aodai #aodai-img {
+    position: absolute;
+    right: 5px;
+    top: 0;
+    width: 400;
+    background-repeat: no-repeat;
+}
+
+#main #aodai #aodai-img .img1 {
+    margin-top: 173px;
+    width: 380px;
+    height: 500px;
+    background: url('/assets/img/aodai_1.jpg') top center / cover no-repeat;
+}
+
+#main #aodai #aodai-img .img2 {
+    margin-top: 24px;
+    width: 380px;
+    height: 500px;
+    background: url('/assets/img/aodai_2.jpg') top center / cover no-repeat;
+}
+
+#main #aodai #aodai-video {
+    position: relative;
+    width: 600px;
+    height: 390px;
+}
+
+#main #aodai #aodai-video .video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#main #aotuthan {
+    padding-top: 90px;
+    width: 1000px;
+    height: 1180px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#main #aotuthan .aotuthan-heading {
+    text-align: center; 
+    margin-bottom: 45px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 2); !important
+}
+
+#main #aotuthan #aotuthan-content {
+    width: 100%;
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+}
+
+#main #aotuthan h4 {
+    font-weight: 700;
+    margin: 12px 0 0 0;
+}
+
+#main #aotuthan p {
+    margin-right: 6px;
+}
+
+#main #aotuthan strong {
+    font-weight: 600;
+}
+
+#main #aotuthan #aotuthan-content #text-content1 {
+    width: 50%;
+    position: absolute;
+    left: 0;
+    margin-right: 2.5px;
+}
+
+#main #aotuthan #aotuthan-content #text-content2 {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    margin-left: 2.5px;
+}
+
+#main #aotuthan #aotuthan-img .img1 {
+    position: absolute;
+    width: 900px;
+    height: 440px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 500px;
+    z-index: -1;
+    background: url('/assets/img/tu-than.jpg') top center / cover no-repeat;
+    box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.5) !important;
+}
+
+#main #aobaba {
+    position: relative;
+    width: 1000px;
+    height: 1420px;
+    padding-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f7f2f2;
+    z-index: -2;
+}
+
+#main #aobaba .aobaba-heading {
+    margin-bottom: 45px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 2); !important
+}
+
+#main #aobaba-content {
+    width: 50%;
+    position: absolute;
+    right: 5px;
+    font-size: 20px;
+}
+
+#main #aobaba h4 {
+    font-weight: 700;
+    margin: 12px 0 0 0;
+    
+}
+
+#main #aobaba strong {
+    font-weight: 600px;
+}
+
+#main #aobaba #aobaba-img .img1 {
+    position: absolute;
+    width: 45%;
+    height: 597px;
+    left: 5px;
+    background: url('/assets/img/abb1.png') top center / cover no-repeat;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5) !important;
+
+}
+
+#main #aobaba #aobaba-img .img2 {
+    position: absolute;
+    align-items: center;
+    margin-top: 650px;
+    z-index: -1;
+    width: 800px;
+    height: 515px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: url('/assets/img/ao-ba-ba.jpg') top center / cover no-repeat;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5) !important;
+}
+
+
+
+
+
+
+
+
+
+/* footer */
+
+#main #footer {
+    background-image: linear-gradient(45deg, rgb(204, 0, 82), rgb(0, 130, 173), rgb(204, 0, 82));
+    width: 100%;
+    height: 375px;
+    position: relative;
+}
+
+#main #footer p {
+    margin: 12px 0;
+    font-size: 17px;
+    color: #f7f2f2;
+}
+
+#main #footer .content-f {
+    position: relative;
+    width: 1000px;
+    height: 255px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#main .footer-content1 {
+    position: absolute;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 1e00px;
+}
+
+#main .footer-content2 {
+    position: absolute;
+    top: 70px;
+    left: 710px;
+}
+
+/* #main .footer-content2 > a:hover {
+    color: green;
+} */
+
+#main #footer .dc {
+    position: absolute;
+    height: 170px;
+    width: 3px;
+    background-color: #f7f2f2;
+    z-index: 10;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 55px;
+
+}
+
+#main #footer .ng {
+    position: absolute;
+    width: 1000px;
+    height: 3px;
+    background-color: #f7f2f2;
+    top: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#main #footer .text-c {
+    position: absolute;
+    top: 250px;
+
+}
+
+#main #footer .subfooter {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 5px;
+    display: inline-block;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 2;
+}
+
+
+#main #footer .subfooter > a {
+    color: white;
+}
+
+/* #main #footer .subfooter > a:link {
+    color: white;
+} */
+
+#main #footer .subfooter > a:visited {
+    color: rgb(255, 255, 255);
+}
+
+#main #footer .subfooter > a:hover {
+    color: #ff0000;
+}
+
+#blocked {
+    display: none;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 63.9375em) {
+    #header {
+        display: none;
+    }
+
+    #main {
+        display: none;
+    }
+
+    #footer {
+        display: none;
+    }
+    #blocked {
+        display: block;
+    }
+    #blocked {
+        
+        /* position: relative; */
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(0, 0, 0);
+        z-index: 3;
+    }
+    #blocked > h2 {
+        position: absolute;
+        line-height: 35px;
+        top: 40%;
+        right: 10%;
+        left: 10%;
+        text-align: center;
+        color: #ffffff;
+        z-index: 5;
+
+    }
+}
